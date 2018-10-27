@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #pig1 {
+            width: 200px;
+            position: fixed;
+            animation-name: pig1;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: 20s;
+            animation-timing-function: linear;
+        }
+        #pig2 {
+            width: 200px;
+            position: fixed;
+            animation-name: pig2;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: 20s;
+            animation-timing-function: linear;
+        }
+        @keyframes pig1 {
+            0% {left: 0;top: 0}
+            50% {left: 70%;top: 0}
+            100% {left: 0;top: 0}
+        }
+        @keyframes pig2 {
+            0% {left: 70%;top: 0}
+            50% {left: 0;top: 0}
+            100% {left: 70%;top: 0}
+        }
+    </style>
+</head>
+<body>
+    <img id="pig1" src="http://hinhnendepnhat.net/wp-content/uploads/2017/07/hinh-dong-de-thuong-chu-lon-kute.gif "
+        alt="class=pig">
+    <img id="pig2" src="http://hinhnendepnhat.net/wp-content/uploads/2017/07/hinh-dong-de-thuong-chu-lon-kute.gif "
+     alt="class=pig">
+</body>
+</html>
